@@ -1,0 +1,1 @@
+exports[`toMatchSnapshot works with its jest native approach 1`] = `<div />`;

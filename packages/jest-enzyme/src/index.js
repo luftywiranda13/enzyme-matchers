@@ -7,6 +7,7 @@
  */
 
 import enzymeMatchers from 'enzyme-matchers';
+import toMatchSnapshot from './toMatchSnapshot';
 
 import type { MatcherMethods } from '../../../types/MatcherMethods';
 declare var beforeEach:Function;
@@ -43,4 +44,6 @@ beforeEach(() => {
       [matcher]: () => ({ compare: enzymeMatchers[matcher] }),
     });
   });
+
+  addMatcher(toMatchSnapshot);
 });

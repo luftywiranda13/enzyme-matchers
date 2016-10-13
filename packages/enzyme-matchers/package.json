@@ -25,7 +25,8 @@
     "enzyme": "1.x || 2.x"
   },
   "dependencies": {
-    "deep-equal-ident": "^1.1.1"
+    "deep-equal-ident": "^1.1.1",
+    "jest-snapshot": "^16.0.0"
   },
   "jest": {
     "testPathDirs": [
